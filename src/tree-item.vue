@@ -165,7 +165,7 @@ export default {
     anchorClasses() {
       return [
         { "tree-anchor": true },
-        { "tree-disabled": this.model.disabled },
+        { "tree-disabled": this.model.disabled && !this.model.hideCheckbox },
         { "tree-selected": this.model.selected },
         { "tree-hovered": this.isHover },
       ];

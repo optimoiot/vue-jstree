@@ -180,15 +180,16 @@ A tree plugin for vue2
 
 ## Data Item Optional Properties
 
-| Name        | Type           | Default  | Describe  |
-| ------------- |:-------------:| -----:|:----------------------------------------------|
-| icon      | String      |   | custom icon css class |
-| opened | Boolean      |    false | set leaf opened |
-| selected | Boolean      |    false | set node selected |
-| disabled | Boolean      |    false | set node disabled |
-| isLeaf | Boolean      |    false | if node is a leaf , set true can hide '+' |
-| dragDisabled | Boolean      |    false |  selective drag |
-| dropDisabled | Boolean      |    false |  selective drop |
+| Name         |  Type   | Default | Describe                                  |
+| ------------ | :-----: | ------: | :---------------------------------------- |
+| icon         | String  |         | custom icon css class                     |
+| opened       | Boolean |   false | set leaf opened                           |
+| selected     | Boolean |   false | set node selected                         |
+| disabled     | Boolean |   false | set node disabled                         |
+| isLeaf       | Boolean |   false | if node is a leaf , set true can hide '+' |
+| dragDisabled | Boolean |   false | selective drag                            |
+| dropDisabled | Boolean |   false | selective drop                            |
+| hideCheckbox | Boolean |   false | hide checkbox                             |
 
 ## Custom Item Example
 
