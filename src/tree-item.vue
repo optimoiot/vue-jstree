@@ -30,7 +30,7 @@
           role="presentation"
           v-if="!model.loading"
         ></i>
-        <span v-html="model[textFieldName]"></span>
+        <span :title="model.title">{{ model[textFieldName] }}</span>
       </slot>
     </div>
     <ul
@@ -71,7 +71,7 @@
               role="presentation"
               v-if="!model.loading"
             ></i>
-            <span v-html="_.model[textFieldName]"></span>
+            <span :title="_.model.title">{{ _.model[textFieldName] }}</span>
           </slot>
         </template>
       </tree-item>
